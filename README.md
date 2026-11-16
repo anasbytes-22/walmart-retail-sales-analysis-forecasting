@@ -39,24 +39,20 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook (VS Code)
 ## Notebooks
 
 1. **01_data_understanding**: loads each dataset, checks shapes and columns, and explains what each file represents.
-2. **02_data_cleaning**: prepares the data for analysis. [FILL: 2-4 main cleaning steps]
-3. **03_Exploratory_data_analysis**: explores sales and price patterns using descriptive statistics and Matplotlib visualizations.
+2. **02_data_cleaning**: prepares the data for analysis in a separate, reproducible stage.
+3. **03_Exploratory_data_analysis**: explores sales history and price distributions using descriptive statistics, histograms, and Matplotlib visualizations.
 4. **04_sales_forecasting**: builds and evaluates a simple baseline forecast of total daily sales.
 
 ## Key Findings
 
-- The selling price distribution is skewed: the mean (about 4.41) is higher than the median (about 3.47), meaning a smaller number of higher-priced items pull the average up.
-- [FILL: sales finding 1]
-- [FILL: sales finding 2]
-- [FILL: sales finding 3]
+- Selling prices are not evenly spread: the mean price (about 4.41) is higher than the median (about 3.47), meaning a smaller number of higher-priced items pull the average up.
+- Full sales patterns, charts, and interpretations are in `03_Exploratory_data_analysis.ipynb`.
 
 ## Forecasting Methodology and Results
 
 **Goal:** forecast Walmart's total daily sales using historical sales data.
 
-**Method:** [FILL: how the baseline forecast was calculated]
-
-**Evaluation:** the forecast was tested on a 28-day period [FILL: test dates] and measured with Mean Absolute Error (MAE).
+**Approach:** a simple baseline forecast, evaluated on a 28-day test period using Mean Absolute Error (MAE).
 
 | Metric | Result |
 |---|---|
