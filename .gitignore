@@ -1,0 +1,19 @@
+# AI agent instructions (kept locally only)
+AGENTS.md
+
+# Large raw datasets (download from Kaggle, see README)
+data/raw/*.csv
+
+# Jupyter and Python clutter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
